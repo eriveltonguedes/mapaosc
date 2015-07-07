@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script type="text/javascript"
+	src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" language="javascript" src="Prototype/Prototype.nocache.js"></script>
+<script type="text/javascript" src="src/progressBar.js"></script>
+<script type="text/javascript">
+	var script = '<script type="text/javascript" src="src/markerclusterer';
+	if (document.location.search.indexOf('compiled') !== -1) {
+		script += '_packed';
+	}
+	script += '.js"><' + '/script>';
+	document.write(script);
+</script>
+<style>
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px
+}
+</style>
+</head>
+<body>
+	<table width="100%" height="100%">
+		<tr>
+			<td rowspan=2 width="20%"><div id="menu_bar"
+					style="width: 100%; height: 100%"></div></td>
+			<td height="5%"><div id="search" style="width: 100%">Digite
+					os termos para a busca:</div></td>
+		</tr>
+		<tr>
+			<td><div id="map_canvas" style="width: 100%; height: 100%"></div></td>
+		</tr>
+	</table>
+</body>
+</html>

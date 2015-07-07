@@ -1,0 +1,5 @@
+Facebook App
+Portal OSC
+portalosc
+ID: 337091649761987
+App Secret: 80d097c8c42a2d8d499dcc53e95b4cf1

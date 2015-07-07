@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Mapa das Organizações da Sociedade Civil - Beta</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="css/contraste.css" title="contrast" />
+	<link rel="stylesheet" type="text/css" href="js/jquery.qtip.css" />
+
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+	<![endif]-->
+	
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">document.documentElement.className += " js";</script>
+
+	<script type="text/javascript" src="User/User.nocache.js"></script>
+
+</head>
+
+<body>
+
+	<div id="main">
+	<div id="barra-brasil">
+			<ul id="menu-barra-temp" >
+				<li><a id="link-portal"
+					href="http://brasil.gov.br">Portal
+						do Governo Brasileiro</a></li>
+				<li><a id= "atualizar-barra" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize
+						sua Barra de Governo</a></li>
+			</ul>
+		</div>
+
+		<div id="topo">
+			<div id="topo_acessibilidade">
+				<ul id="nav1">
+					<li>Ir para o <a href="#topo" accesskey="1">Conteúdo 1</a></li>
+					<li>Ir para o <a href="#topo_links" accesskey="2">Menu 2</a></li>					
+					<li>Ir para o <a href="#rodape" accesskey="3">Rodapé 3</a></li>
+				</ul>
+				<ul id="nav2">
+					<li><a href="http://www.governoeletronico.gov.br/acessibilidade" target="_blank">Acessibilidade</a></li>
+					<li id="contraste">Contraste
+						<a id="contraste_normal" href="#"><img src="imagens/09_contraste1.png" alt="Contraste normal" width="13" height="14" /></a>
+						<a id="alto_contraste" href="#"><img src="imagens/10_contraste2.png" alt="Alto contraste" width="13" height="14" /></a></li>
+						<li>Tamanho do texto
+							<a href="#" title="Aumentar fonte" class="inc-font">A+</a>
+							<a href="#" title="Fonte padrão" class="res-font">A</a>
+							<a href="#" title="Diminuir fonte" class="dec-font">A-</a></li>
+						</ul>
+					</div>
+
+					<div id="topo_links">
+						<a href="sobre.html" id="sobre">Sobre o mapa</a>
+						<a href="faq.html" id="duvidas">Dúvidas frequentes</a>
+					</div>
+
+					<div id="topo_acesso">	</div>
+
+					<a href="Map.html">
+						<img class="normal" id="logo" src="imagens/logo.jpg" alt="Mapa das Organizações da Sociedade Civil - Página inicial"  title="Ir para página inicial" />
+						<img class="contraste" id="logo_contraste" src="imagens/contraste/logo-contraste.jpg" alt="Mapa das Organizações da Sociedade Civil - Página inicial" title="Ir para página inicial" />
+					</a>
+				</div>
+
+				<div id="mapa" class="institucional">
+
+					<div><h1>Versão beta?</h1>
+
+					<div id= "redes-sociais" class="redes" align="right" style="display:none">
+						<button type="button" id="b-google" name="redes" value="false" title="Google" class="tooltip"></button>
+						<button type="button" id="b-facebook" name="redes" value="false" title="Facebook" class="tooltip"></button>
+						<button type="button" id="b-linkedin" name="redes" value="false" title="LinkedIn" class="tooltip"></button>
+						<button type="button" id="b-yahoo" name="redes" value="false" title="Yahoo" class="tooltip"></button>
+						<button type="button" id="b-twitter" name="redes" value="false" title="Twitter" class="tooltip"></button>
+				    </div></div>
+
+					<div class="faq wrapper clearfix">
+						
+						<p>A versão beta de um software é aquela que ainda se encontra em fase de desenvolvimento e testes. A plataforma que você pode usar agora é apenas uma parte de tudo que esperamos que ela seja. E queremos que você possa contribuir nessa construção, dando sugestões e críticas para que aperfeiçoemos ao máximo esse espaço, desenvolvido para a participação da sociedade.</p>
+
+						<h3><em>1</em> O que você encontra na versão Beta?</h3>
+						<div>
+							<p>O Mapa das Organizações da Sociedade Civil está organizado em diversos tipos de ambiente:</p>
+
+							<p><strong>a. Mapa das Organizações</strong><br />
+							Mapa que contém a localização geográfica da sede das organizações, onde é possível verificar características regionais, visualizar a rua, verificar a vizinhança, entre outras funcionalidades. Experimente navegar pelo mapa.</p>
+
+							<p>É a partir desse espaço que o usuário pode interagir com uma organização visualizando os seus dados e recomendando.</p>
+
+							<p><strong>b. Busca</strong><br />
+							Busca de uma organização no mapa. A busca pode ser feita por unidades da federação, municípios, nome ou CNPJ da organização. A própria busca te ajudará a encontrar o que deseja, buscando o resultado conforme a digitação.</p>
+
+							<p>Ao realizar a busca, o mapa irá focalizar a região desejada, ou a organização procurada.</p>
+
+							<p><strong>c. Janela da Organização no Mapa</strong><br />
+							Voltado para explorar o conteúdo do Mapa, seu objetivo é divulgar informações resumidas sobre a organização. </p>
+
+							<p><strong>d. Menu lateral</strong><br />
+							Permite que navegue no Mapa através das regiões, unidades da federação e municípios até achar a organização que deseja. Ao achar a organização, o usuário poderá visualizar informações mais detalhadas sobre a organização agrupadas por subitens.</p>
+
+							<p>O menu da organização é apresentado toda vez que ela estiver focalizada no mapa.</p>
+														
+							<p><strong>e. Menu de acessibilidade</strong><br />
+							Permite que usuários com algum tipo de necessidade especial possa navegar no Mapa.</p>
+
+							<p><strong>f. Cadastro de Usuário</strong><br />
+							O Mapa é acessível para qualquer usuário que deseje obter iinformação sobre OSCs. Entretanto, com o objetivo de formar uma rede de usuários de forma colaborativa, algumas funcionalidades só estarão acessíveis para usuários cadastrados. Cadastre-se no Portal e aproveite ao máximo as suas potencialidades.</p>
+
+							<p>Existem três tipos de usuário no Mapa. Usuários de redes sociais, Usuário padrão e Representante da Entidade.</p>
+
+							<p><strong>g. Indicadores</strong><br />
+							A sessão de Indicadores apresenta, de forma lúdica, informações obtidas durante a Pesquisa sobre as OSCs do Brasil realizada pela Fundação Getúlio Vargas. Neste menu podemos consultar a matriz de indicadores levantados durante a pesquisa.</p>
+
+							<a href="#main" class="topo">Voltar para o topo</a>
+						</div>
+
+						<h3><em>2</em> O que mais vai ser lançado para a versão final?</h3>
+						<div>
+							<p>O Mapa ainda está em desenvolvimento e apresentará algumas novas funcionalidades no futuro:</p>
+
+							<p><strong>a. Página da Organização</strong><br />
+							Espaço apresenta a Organização em detalhes, incluindo a sua classificação, projetos realizados, Como Participar, etc. Esta funcionalidade permitirá ao representante da organização da sociedade civil incluir dados da organização que representa. O objetivo é tornar o mapa uma construção coletiva das instituições por ele responsáveis e pela sociedade.</p>
+
+							<p><strong>b. Usuário Representante da Organização</strong><br />
+							O cadastramento dos usuários representantes da Organização permite que informações da organização sejam atualizadas.</p>
+
+							<p><strong>c. Usuário de redes sociais</strong><br />
+							Cadastramento de usuários a partir de redes sociais como o facebook, twitter, google plus, linkedin e outras, aproveitando dados dos usuários já cadastrados nestas redes e permitindo que se possa divulgar informações do mapa nas redes sociais.</p>
+
+							<p><strong>d. Dashboards dinâmicos</strong><br />
+							Embora já existam alguns infográficos disponíveis, o Mapa pretende incorporar gráficos dinâmicos e permitir construí-los a partir das variáveis disponíveis em nosso banco de dados, conforme o interesse do usuário.</p>
+
+							<p><strong>e. Atualização dinâmica dos dados</strong><br />
+							Os dados presentes neste mapa são fruto de uma pesquisa realizada em 14 bases de dados de diversos ministérios. Entretanto, serão desenvolvidas rotinas que permitam atualizar as bases dados de forma automatizada. O objetivo é manter as informações o mais atualizado possível.</p>
+
+							<p><strong>f. Integração com outras bases de dados geoespaciais</strong><br />
+							Está prevista também a inclusão de novas bases de informações geoespaciai que permitam ampliar informações sobre o contexto social e econômico de atuação de cada OSC e auxiliem estas no desenvolvimento de novos projetos. Este será o caso, por exemplo, da integração deste mapa com o atlas do desenvolvimento municipal (http://www.atlasbrasil.org.br/).</p>
+
+							<p><strong>g. Plataforma interativa</strong><br />
+							Tornar o mapa uma plataforma interativa que disponha não apenas das ações das OSCs, seu entorno e a cooperação com o poder público, mas disponibilize informações relevantes para as OSCs e o público interessado, entre a quais, manuais e cartilhas, chamamentos públicos e editais abertos, possibilidades de analisar prestações de contas das OSCs que atuam em parceria com os governos e outras. Sugestões são bem-vindas.</p>
+
+							<a href="#main" class="topo">Voltar para o topo</a>
+						</div>
+
+						<div class="redes" style="display:none">
+							<button type="button" id="b-google" name="redes" value="false" title="Google" class="tooltip"></button>
+							<button type="button" id="b-facebook" name="redes" value="false" title="Facebook" class="tooltip"></button>
+							<button type="button" id="b-linkedin" name="redes" value="false" title="LinkedIn" class="tooltip"></button>
+							<button type="button" id="b-yahoo" name="redes" value="false" title="Yahoo" class="tooltip"></button>
+							<button type="button" id="b-twitter" name="redes" value="false" title="Twitter" class="tooltip"></button>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="rodape" class="clearfix">
+					<div class="clearfix">
+						<div class="celula01">
+							<h2 class="tooltip" title="Melhor visualizado nos seguintes navegadores: Internet Explorer 8 ou superior, Firefox, Chrome, Opera ou Safari">Mapa das Organizações da Sociedade Civil &copy; 2014</h2>
+							<a href="beta.html" class="beta">Versão BETA?</a>
+						</div>
+						<div class="celula02">
+							<span>Apoio</span> <a href= "http://fgvprojetos.fgv.br/" target="_blank"><img class="normal" src="imagens/logo_fgv.png"
+								alt="FGV Projetos" /> <img class="contraste"
+								src="imagens/contraste/logo_fgv.png" alt="FGV Projetos" /></a>
+							<a href= "http://www.ipea.gov.br/" target="_blank"><img class="normal" src="imagens/logo_50anos.png"
+								alt="Ipea" /> <img class="contraste"
+								src="imagens/contraste/logo_50anos.png" alt="Ipea" /></a>
+							<a href= "http://www.pnud.org.br/" target="_blank"><img class="normal" src="imagens/logo_pnud.png"
+								alt="PNUD" /> <img class="contraste"
+								src="imagens/contraste/logo_pnud.png" alt="PNUD" /></a>
+						</div>
+						<div class="celula03">
+							<span>Realização</span>
+							<img class="normal" src="imagens/logo_secretaria.png" alt="Secretaria-Geral da Presidência da República" />
+							<img class="contraste" src="imagens/contraste/logo_secretaria.png" alt="Secretaria-Geral da Presidência da República" />
+						</div>
+					</div>
+				</div>
+
+				<!-- ////////// -->
+				
+				<div id="footer" class="clearfix">
+							<div id="doormat-container" class="columns-4 clearfix">
+								<div class="doormatColumn column-1">
+				
+									<dl class="doormatSection">
+										<dt class="doormatSectionHeader">O Mapa</dt>
+										<dd class="doormatSectionBody">
+										<a href="Map.html#I01">OSCs em números</a>
+				<!-- 							<span id="menuFooter"><a href="#I01">OSCs em números</a></span> -->
+				
+										</dd>
+										<dd class="doormatSectionBody"> 
+				 							<a href="faq.html">Dúvidas Frequentes</a> 
+				
+				 						</dd> 
+										<dd class="doormatSectionBody">
+											<a href="http://www.secretariageral.gov.br/mrosc" target="_blank">MROSC</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="metodologia.pdf">Metodologia</a>
+				
+										</dd>
+									</dl>
+								</div>
+				
+								<div class="doormatColumn column-0">
+				
+									<dl class="doormatSection">
+										<dt class="doormatSectionHeader">Bases de Dados</dt>
+										<dd class="doormatSectionBody">
+											<a href="http://portal.mte.gov.br/" target="_blank">Ministério do Trabalho e Emprego</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.justica.gov.br/" target="_blank">Ministério da Justiça</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.mec.gov.br/" target="_blank">Ministério da Educação e Cultura</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.mds.gov.br/" target="_blank">Ministério do Desenvolvimento Social</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.mma.gov.br/" target="_blank">Ministério do Meio Ambiente</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.cultura.gov.br/" target="_blank">Ministério da Cultura</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.cidades.gov.br/" target="_blank">Ministério das Cidades</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://portalsaude.saude.gov.br/" target="_blank">Ministério da Saúde</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.mcti.gov.br/" target="_blank">Ministério de Ciência e Tecnologia</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.planejamento.gov.br/" target="_blank">Ministério do Planejamento</a>
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.esporte.gov.br/" target="_blank">Ministério dos Esportes</a>
+										</dd>
+										
+										
+				
+									</dl>
+								</div>
+								<div class="doormatColumn column-2">
+				
+									<dl class="doormatSection">
+										<dt class="doormatSectionHeader">Links Úteis</dt>
+										<dd class="doormatSectionBody">
+											<a href="http://www.convenios.gov.br/portal/" target="_blank">Portal dos Convênios</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.brasil.gov.br/" target="_blank">Portal Brasil</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.secretariageral.gov.br/atuacao/mrosc/estudos-e-pesquisas">Biblioteca do MROSC</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="https://www.facebook.com/mroscs?ref=hl">Facebook do MROSC</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.participa.br/osc/">Comunidade OSC</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.participa.br/">Participa.br</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.participatorio.juventude.gov.br" target="_blank">Participatório da Juventude</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="http://www.atlasbrasil.org.br/" target="_blank">Atlas do Desenvolvimento Humano no Brasil</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="https://observatoriosc.wordpress.com/" target="_blank">Observatório das Organizações da Sociedade Civil</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+										    <a href="http://culturaeduca.cc" target="_blank">Culturaeduca.cc</a>
+										</dd >
+										<dd class="doormatSectionBody">
+										    <a href="http://sniic.cultura.gov.br" target="_blank">Sniic - Sistema Nacional de Informações e Indicadores Culturais</a>
+										</dd>
+									</dl>
+								</div>
+				
+								<div class="doormatColumn column-2" style="display:none">
+				
+									<dl class="doormatSection">
+										<dt class="doormatSectionHeader">Redes Sociais</dt>
+										<dd class="doormatSectionBody">
+											<a href="#">Facebook</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="#">Twitter</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="#">YouTube</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="#">Flickr</a>
+				
+										</dd>
+									</dl>
+								</div>
+				
+								<div class="doormatColumn column-3" style="display:none">
+									<dl class="doormatSection">
+										<dt class="doormatSectionHeader">Mapa do site</dt>
+										<dd></dd>
+									</dl>
+								</div>
+				
+								<div class="doormatColumn column-4" style="display:none">
+				
+									<dl class="doormatSection">
+										<dt class="doormatSectionHeader">RSS</dt>
+										<dd class="doormatSectionBody">
+											<a href="#">O que é RSS?</a>
+				
+										</dd>
+										<dd class="doormatSectionBody">
+											<a href="#">Assine nosso RSS</a>
+				
+										</dd>
+									</dl>
+								</div>
+				
+							</div>
+				
+				
+				
+							<div class="footer-logos">
+								<div>
+									<a href="http://www.acessoainformacao.gov.br/" class="logo-acesso"><img
+										src="imagens/acesso-a-informacao.png" alt="Acesso a Informação" /></a>
+									<a href="http://www.brasil.gov.br/" class="logo-brasil"><img
+										src="imagens/brasil2.png" alt="Brasil - Governo Federal" /></a>
+								</div>
+							</div>
+						</div>
+					
+				<!-- ////////// -->
+					</div>
+							
+							<script type="text/javascript" src="js/acessibilidade.js"></script>
+							<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+							<script type="text/javascript" src="js/scripts_min.js"></script>
+							<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+							<script src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+	
+</body>
+
+</html>

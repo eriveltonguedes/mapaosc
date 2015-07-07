@@ -1,0 +1,31 @@
+package gov.sgpr.fgv.osc.portalosc.map.shared.interfaces;
+
+import gov.sgpr.fgv.osc.portalosc.map.shared.model.SearchResult;
+import gov.sgpr.fgv.osc.portalosc.user.shared.exception.RemoteException;
+
+import java.util.List;
+
+import com.google.gwt.user.client.rpc.RemoteService;
+import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
+
+/**
+ * Interface do Serviço de busca do mapa
+ * 
+ * @author victor
+ * 
+ */
+@RemoteServiceRelativePath("searchService")
+public interface SearchService extends RemoteService {
+
+	/**
+	 * @param criteria
+	 *            Critério de busca
+	 * @param resultLimit
+	 *            quantidade de resultados
+	 * @return
+	 * @throws RemoteException
+	 */
+	List<SearchResult> search(String criteria, int resultLimit)
+			throws RemoteException;
+
+}

@@ -1,0 +1,1358 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../Rodape_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:8px;
+    top:1096px;
+    width:960px;
+    height:150px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:966px;
+    height:156px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:67px;
+    width:956px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../Rodape_files/Logo_FGV_u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:520px;
+    top:1120px;
+    width:186px;
+    height:80px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:192px;
+    height:86px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:182px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:336px;
+    top:1221px;
+    width:305px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_normal {
+    background-image: url('../Rodape_files/Logo_Secretaria_u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:270px;
+    top:1120px;
+    width:249px;
+    height:80px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:255px;
+    height:86px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:245px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:8px;
+    top:183px;
+    width:194px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_line {
+    background-image: url('../Duvidas_frequentes_files/u9_line.png');
+}
+
+.u9_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:960px;
+    height:3px;
+}
+
+.u9 {
+    position:absolute;
+    left:8px;
+    top:203px;
+    width:960px;
+    height:10px;
+    
+}
+
+.u10 {
+    position:absolute;
+    left:8px;
+    top:265px;
+    width:643px;
+    height:260px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../Duvidas_frequentes_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:846px;
+    top:178px;
+    width:24px;
+    height:24px;
+}
+
+#u11_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_normal {
+    background-image: url('../Duvidas_frequentes_files/u13_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:879px;
+    top:178px;
+    width:24px;
+    height:24px;
+}
+
+#u13_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15_normal {
+    background-image: url('../Duvidas_frequentes_files/u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:912px;
+    top:178px;
+    width:24px;
+    height:24px;
+}
+
+#u15_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17_normal {
+    background-image: url('../Duvidas_frequentes_files/Compartilhamento_em_redes_sociais_u17_normal.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:944px;
+    top:178px;
+    width:24px;
+    height:24px;
+}
+
+#u17_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u18 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_normal {
+    background-image: url('../Duvidas_frequentes_files/Google_u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:814px;
+    top:178px;
+    width:24px;
+    height:24px;
+}
+
+#u19_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_normal {
+    background-image: url('../Duvidas_frequentes_files/u11_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:40px;
+    top:1033px;
+    width:24px;
+    height:24px;
+}
+
+#u21_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u23_normal {
+    background-image: url('../Duvidas_frequentes_files/u13_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:73px;
+    top:1033px;
+    width:24px;
+    height:24px;
+}
+
+#u23_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../Duvidas_frequentes_files/u15_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:106px;
+    top:1033px;
+    width:24px;
+    height:24px;
+}
+
+#u25_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../Duvidas_frequentes_files/Compartilhamento_em_redes_sociais_u17_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:138px;
+    top:1033px;
+    width:24px;
+    height:24px;
+}
+
+#u27_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../Duvidas_frequentes_files/Google_u19_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:8px;
+    top:1033px;
+    width:24px;
+    height:24px;
+}
+
+#u29_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:24px;
+    height:24px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:20px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:8px;
+    top:213px;
+    width:625px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../Duvidas_frequentes_files/u32_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:8px;
+    top:376px;
+    width:122px;
+    height:99px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:128px;
+    height:105px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:118px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:8px;
+    top:571px;
+    width:643px;
+    height:180px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35 {
+    position:absolute;
+    left:8px;
+    top:793px;
+    width:643px;
+    height:180px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_line {
+    background-image: url('../Duvidas_frequentes_files/u36_line.png');
+}
+
+.u36_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:643px;
+    height:3px;
+}
+
+.u36 {
+    position:absolute;
+    left:8px;
+    top:279px;
+    width:643px;
+    height:10px;
+    
+}
+
+.u37_line {
+    background-image: url('../Duvidas_frequentes_files/u37_line.png');
+}
+
+.u37_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:643px;
+    height:3px;
+}
+
+.u37 {
+    position:absolute;
+    left:8px;
+    top:585px;
+    width:643px;
+    height:10px;
+    
+}
+
+.u38_line {
+    background-image: url('../Duvidas_frequentes_files/u38_line.png');
+}
+
+.u38_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:643px;
+    height:3px;
+}
+
+.u38 {
+    position:absolute;
+    left:8px;
+    top:807px;
+    width:643px;
+    height:10px;
+    
+}
+
+.u39 {
+    position:absolute;
+    left:564px;
+    top:529px;
+    width:87px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:564px;
+    top:751px;
+    width:87px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:564px;
+    top:973px;
+    width:87px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/u49_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:8px;
+    top:9px;
+    width:960px;
+    height:30px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:966px;
+    height:36px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:956px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/u51_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:8px;
+    top:39px;
+    width:960px;
+    height:80px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:966px;
+    height:86px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:956px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46_normal {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/u53_normal.png');
+}
+
+.u46_container {
+    position:absolute;
+    left:8px;
+    top:39px;
+    width:854px;
+    height:80px;
+}
+
+#u46_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:860px;
+    height:86px;
+}
+
+.u47 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:850px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_normal {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/u55_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:8px;
+    top:119px;
+    width:960px;
+    height:46px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:966px;
+    height:52px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:956px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50 {
+    position:absolute;
+    left:871px;
+    top:144px;
+    width:92px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_menu {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/u58_menu.png');
+}
+
+.u51_menu {
+    position:absolute;
+    left:859px;
+    top:36px;
+    width:115px;
+    height:89px;
+}
+
+#u51_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:112px;
+    height:86px;
+}
+
+#u52 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:105px;
+    height:79px
+}
+
+.u53_normal {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/u60_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:74px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:80px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:29px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_menu {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/u62_menu.png');
+}
+
+.u55_menu {
+    position:absolute;
+    left:0px;
+    top:74px;
+    width:136px;
+    height:55px;
+}
+
+#u55_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:133px;
+    height:52px;
+}
+
+#u56 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:126px;
+    height:45px
+}
+
+.u57_normal {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/Quero_me_cadastrar_u64_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:121px;
+    height:20px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:26px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../Cabe_alho_de_usuario_visitante_files/Quero_me_cadastrar_u64_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:0px;
+    top:20px;
+    width:121px;
+    height:20px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:127px;
+    height:26px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:728px;
+    top:144px;
+    width:141px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62 {
+    position:absolute;
+    left:681px;
+    top:144px;
+    width:39px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:502px;
+    top:120px;
+    width:110px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:611px;
+    top:120px;
+    width:78px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:688px;
+    top:120px;
+    width:69px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66 {
+    position:absolute;
+    left:756px;
+    top:120px;
+    width:71px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:826px;
+    top:120px;
+    width:83px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68 {
+    position:absolute;
+    left:908px;
+    top:120px;
+    width:55px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u69 {
+    position:absolute;
+    left:725px;
+    top:119px;
+    width:244px;
+    height:216px;
+    overflow:hidden;
+}
+
+#pd0u69 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:244px;
+    height:216px;
+    
+}
+
+.u70_normal {
+    background-image: url('../Login_files/u77_normal.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:243px;
+    height:215px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:249px;
+    height:221px;
+}
+
+.u71 {
+    position:absolute;
+    left:2px;
+    top:100px;
+    width:239px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:11px;
+    top:10px;
+    width:52px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73 {
+    position:absolute;
+    left:11px;
+    top:33px;
+    width:221px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u74 {
+    position:absolute;
+    left:11px;
+    top:75px;
+    width:52px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:11px;
+    top:98px;
+    width:221px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u76 {
+    position:absolute;
+    left:150px;
+    top:174px;
+    width:82px;
+    height:30px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u77 {
+    position:absolute;
+    left:68px;
+    top:184px;
+    width:75px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78 {
+    position:absolute;
+    left:11px;
+    top:133px;
+    width:132px;
+    height:20px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u79 {
+    position:absolute;
+    left:11px;
+    top:127px;
+    width:222px;
+    height:41px;
+    overflow:hidden;
+}
+
+#pd0u79 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:222px;
+    height:41px;
+    
+}
+
+.u80_normal {
+    background-image: url('../Login_files/u87_normal.png');
+}
+
+.u80_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:221px;
+    height:40px;
+}
+
+#u80_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:227px;
+    height:46px;
+}
+
+.u81 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:217px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:221px;
+    height:40px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
